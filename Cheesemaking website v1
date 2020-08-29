@@ -8,7 +8,6 @@
   <style>
     body {
       margin: 0px;
-
       background-color:rgba(31,33,30, 0.1);
       background-opaci
     }
@@ -144,7 +143,6 @@
           </a>
         </button>
       </p>
-
       <p class="footer">
         Open sourced by
         <a
