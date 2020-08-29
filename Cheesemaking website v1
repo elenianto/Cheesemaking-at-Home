@@ -8,8 +8,7 @@
   <style>
     body {
       margin: 0px;
-      background-color:rgba(31,33,30, 0.1);
-      background-opaci
+      background-color:linear-gradient( rgba(70, 71, 69, 0.1), rgba(70, 71, 69, 0.2) ) ;
     }
     h1 {
       color: rgb(97, 97, 97);
@@ -123,16 +122,20 @@
         Second, a <strong>coagulant substance</strong>. Either enzyme coagulant
         (rennet) or acid.<br />
         It's this substance that causes the solids in the milk to curdle
-        together. <br />Try pouring lemon juice in hot milk and watch it curdle.
-        <br />That's right, cheesemaking can be as easy as that.
+        together. <br />Try pouring lemon juice in hot milk to see curdling in
+        action. <br />That's right, cheesemaking can be as easy as that.
         <br />
         <br />
         Third, <strong> heat</strong>. Each cheese requires heating the milk to
         <strong>specific temperatures</strong>. <br />When the right temperature
         is reached, the milk proteins are denatured. <br />Then, the coagulant
-        kicks in and works its magic... and Voila!
+        kicks in to work its magic... and voila!
       </h3>
       <p>
+        <button>Explore international cheeses</button>
+        <br />
+        <br />
+        <br />
         <button>
           <a
             href="https://www.cheesescience.org/coagulation.html"
@@ -143,16 +146,37 @@
           </a>
         </button>
       </p>
+
       <p class="footer">
-        Open sourced by
+        This website was coded by
+        <a href="https://www.linkedin.com/in/eleniantonelli/" target="_blank">
+          Eleni Antonelli</a
+        >, and is
         <a
-          href="https://github.com/elenianto/Cheesemaking-at-Home/blob/master/website%20v1"
+          href="https://github.com/elenianto/Cheesemaking-at-Home/blob/master/Cheesemaking%20website%20v1"
           target="_blank"
-        >
-          Eleni Antonelli
-        </a>
+          >open-sourced</a
+        >.
       </p>
     </div>
-    <script></script>
+    <script>
+      function jsUcfirst(string) {
+        return string.charAt(0).toUpperCase() + string.slice(1);
+      }
+      function learnMore() {
+        let name = prompt("What is your name?");
+        let cheese = prompt("What is your favorite cheese?");
+        cheese = jsUcfirst(cheese);
+        alert(
+          "Thank you " +
+            name +
+            "! " +
+            cheese +
+            " is a great choice of cheese 🧀"
+        );
+      }
+      let learnMoreButton = document.querySelector("button");
+      learnMoreButton.addEventListener("click", learnMore);
+    </script>
   </body>
 </html>
