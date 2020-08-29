@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheesemaking at Home</title>
+  </head>
+  <style>
+    body {
+      margin: 0px;
+
+      background-color:rgba(31,33,30, 0.1);
+      background-opaci
+    }
+    h1 {
+      color: rgb(97, 97, 97);
+      text-align: center;
+      font-size: 30px;
+      line-height: 25px;
+      padding: 30px;
+      margin: 30px;
+    }
+    h2 {
+      text-align: center;
+      color: #828282;
+      font-size: 25px;
+      padding;0 auto;
+      line-height: 30px;
+    }
+    h3 {
+      text-align: center;
+      color: #828282;
+      font-weight: 200;
+      padding: 25px;
+      margin: 0 auto;
+      width:700px;
+    }
+    img {
+      display:block;
+      text-align: center;
+      margin: 0 auto ;
+      max-width: 100%;
+      border: 30 auto;
+      border-radius: 10px;
+      padding
+    }
+    a{
+      color:#828282;
+    
+    }
+    .link{
+      color:unset;
+      text-decoration:unset;
+    }
+    p{
+      display: block;
+      text-align:center;
+      font-size:18px;
+    }
+    button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: rgba(31,33,30, 0.2);
+        border: 1.5px solid  rgba(31,33,30, 0.25);
+        box-shadow:  rgba(37, 39, 89, 0.12) 0px 8px 8px 0;
+        color: #fff;
+        font-size: 18px;
+        line-height: 22px;
+        padding: 20px 30px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        cursor: pointer;
+        text-decoration:none;
+      }
+      button:hover {
+        color: #fff;
+        border: 1.5px solid  #59a570;
+        background: #59a570;
+      }
+    .footer {
+      text-align: center;
+      font-weight: 300;
+      padding: 50px;
+      color: #828282;
+      font: Calibri;
+      font-size:16px;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <h1>Cheesemaking at Home</h1>
+      <h2>
+        What's not to love about cheese? <br />
+        <br />
+      </h2>
+      <p>
+        <img
+          src="https://www.greekboston.com/wp-content/uploads/2016/06/feta-cheese-720x480.jpg"
+          alt="Feta in cubes"
+          width="700px"
+        />
+      </p>
+      <h3>
+        If you find yourself wondering how your favourite type of cheese is
+        made, the best way to find out is to try making it yourself. Before you
+        know it, you'll have delicious homemade cheese to feast on and brag
+        about!
+      </h3>
+      <h2>All you need is 3 basic ingredients.</h2>
+      <h3>
+        First, <strong>good milk</strong> - duh. Always non ultra-pasteurized.
+        <strong>Always.</strong> <br />For soft types of cheese, you'll need
+        whole milk. <br />
+        For harder types of cheese, skim milk might be preferred. <br />Milk
+        from cows, sheep, and goats tastes different - and so does cheese.
+        <br />
+        <br />
+        Second, a <strong>coagulant substance</strong>. Either enzyme coagulant
+        (rennet) or acid.<br />
+       It's this substance that causes the solids in the milk to curdle together. <br />Try pouring
+        lemon juice in hot milk and watch it curdle. <br />That's right, cheesemaking can be as easy as that.
+        <br />
+        <br />
+        Third, <strong> heat</strong>. Each cheese  requires heating the milk to
+        <strong>specific temperatures</strong>. <br />When the right temperature
+        is reached, the milk proteins are denatured. <br />Then, the
+        coagulant kicks in and works its magic... and Voila!
+      </h3>
+      <p>
+        <button>
+          <a href="https://www.cheesescience.org/coagulation.html" target="_blank" class="link">
+            Learn more about cheese coagulation
+          </a>
+        </button>
+  
+      </p>
+
+      <p class="footer">
+        Open sourced by
+        <a href="https://www.linkedin.com/in/eleniantonelli/" target="_blank">
+          Eleni Antonelli
+        </a>
+      </p>
+    </div>
+    <script>
+          
+    </script>
+  </body>
+</html>
