@@ -46,7 +46,7 @@
     }
     a{
       color:#828282;
-    
+
     }
     .link{
       color:unset;
@@ -61,8 +61,8 @@
         border-radius: 25px;
         margin: 0 auto;
         display: block;
+        border: 1.5px solid  rgba(31,33,30, 0.08);
         background-color: rgba(31,33,30, 0.2);
-        border: 1.5px solid  rgba(31,33,30, 0.25);
         box-shadow:  rgba(37, 39, 89, 0.12) 0px 8px 8px 0;
         color: #fff;
         font-size: 18px;
@@ -71,7 +71,6 @@
         text-decoration: none;
         transition: all 200ms ease;
         cursor: pointer;
-        text-decoration:none;
       }
       button:hover {
         color: #fff;
@@ -118,33 +117,38 @@
         <br />
         Second, a <strong>coagulant substance</strong>. Either enzyme coagulant
         (rennet) or acid.<br />
-       It's this substance that causes the solids in the milk to curdle together. <br />Try pouring
-        lemon juice in hot milk and watch it curdle. <br />That's right, cheesemaking can be as easy as that.
+        It's this substance that causes the solids in the milk to curdle
+        together. <br />Try pouring lemon juice in hot milk and watch it curdle.
+        <br />That's right, cheesemaking can be as easy as that.
         <br />
         <br />
-        Third, <strong> heat</strong>. Each cheese  requires heating the milk to
+        Third, <strong> heat</strong>. Each cheese requires heating the milk to
         <strong>specific temperatures</strong>. <br />When the right temperature
-        is reached, the milk proteins are denatured. <br />Then, the
-        coagulant kicks in and works its magic... and Voila!
+        is reached, the milk proteins are denatured. <br />Then, the coagulant
+        kicks in and works its magic... and Voila!
       </h3>
       <p>
         <button>
-          <a href="https://www.cheesescience.org/coagulation.html" target="_blank" class="link">
+          <a
+            href="https://www.cheesescience.org/coagulation.html"
+            target="_blank"
+            class="link"
+          >
             Learn more about cheese coagulation
           </a>
         </button>
-  
       </p>
 
       <p class="footer">
         Open sourced by
-        <a href="https://www.linkedin.com/in/eleniantonelli/" target="_blank">
+        <a
+          href="https://github.com/elenianto/Cheesemaking-at-Home/blob/master/website%20v1"
+          target="_blank"
+        >
           Eleni Antonelli
         </a>
       </p>
     </div>
-    <script>
-          
-    </script>
+    <script></script>
   </body>
 </html>
