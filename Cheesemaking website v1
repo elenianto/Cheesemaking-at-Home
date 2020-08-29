@@ -77,6 +77,12 @@
         border: 1.5px solid  #59a570;
         background: #59a570;
       }
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 auto;
+        border: 0 auto;
+      }
     .footer {
       text-align: center;
       font-weight: 300;
