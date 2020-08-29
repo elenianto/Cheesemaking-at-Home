@@ -34,6 +34,7 @@
       padding: 25px;
       margin: 0 auto;
       width:700px;
+      line-height: 25px;
     }
     img {
       display:block;
@@ -42,11 +43,9 @@
       max-width: 100%;
       border: 30 auto;
       border-radius: 10px;
-      padding
     }
     a{
       color:#828282;
-
     }
     .link{
       color:unset;
@@ -56,6 +55,7 @@
       display: block;
       text-align:center;
       font-size:18px;
+      line-height:1.2;
     }
     button {
         border-radius: 25px;
